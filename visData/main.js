@@ -23,7 +23,7 @@ function character(){
     location.innerHTML = `Location: ${randomcharacter.location.street.number}, Street Name:${randomcharacter.location.street.name} City:${randomcharacter.location.city}, State:${randomcharacter.location.state}, Country${randomcharacter.location.country}, Postcode:${randomcharacter.location.postcode}.`;
 
     let email = document.getElementById("email");
-    email.innerHTML = `Email:${randomcharacter.email}`
+    email.innerHTML = `Email:${randomcharacter.email}`;
 
     let birth = document.getElementById("dob");
     birth.innerHTML = `DOB: ${randomcharacter.dob.date}, Age: ${randomcharacter.dob.age}`;
